@@ -5,7 +5,7 @@ const Redirect: React.FC = () => {
 	const history = useHistory();
 
 	useEffect(() => {
-		history.push('/about');
+		history.push('/industries');
 	}, [history])
 
 	return (

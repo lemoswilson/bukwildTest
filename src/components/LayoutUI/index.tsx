@@ -32,7 +32,6 @@ export const LayoutUI: React.FC<LayoutUIProps> = ({showNav}) => {
 
 
 	return (
-		// <section style={!showNav && windowWidth < 992 ? {top: '-145px'} : {top: '0px'}} className={styles.wrapper}>
 		<section style={!showNav ? {top: '-145px'} : {top: '0px'}} className={styles.wrapper}>
 			<div className={styles.layout}>
 				<div className={styles.leftWrapper}>
